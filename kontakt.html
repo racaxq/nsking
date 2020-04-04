@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kontakt</title>
+	 <meta property="og:url"           content="https://tepihservisking.000webhostapp.com/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Tepih servis King" />
+    <meta property="og:description"   content="Dobrodosli u tepih servis King" />
+    <meta property="og:image"         content="img1.jpg" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</head>
+<body>
+
+	<nav>
+		<label for="show-menu" class="show-menu">Meni</label>
+		<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+			<li><a href="index.html">Pocetna</a></li>
+			<li><a href="stasvenudimo.html">Sta sve nudimo?</a></li>
+			<li><a href="staikako.html">Sta i kako...</a></li>
+			<li><a href="kontakt.html">Kontakt</a></li>
+		</ul>
+	</nav>
+	
+<form action="/action_page.php" target="_blank" >
+	<h1>PORUCITE USLUGU ONLINE :</h1>
+  Ime <br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Prezime <br>
+  <input type="text" name="lastname" value="">
+  <br>
+   Opstina stanovanja<br>
+  <input type="text" name="opstina" value="">
+  <br>
+   Mesto stanovanja<br>
+  <input type="text" name="mesto" value="">
+  <br>
+  Adresa stanovanja<br>
+  <input type="text" name="adresa" value="">
+  <br>
+  Kontakt telefon<br>
+  <input type="text" name="kontakt" value="">
+  <br>
+  <div id="fb-root"></div>
+  <div class="fb-share-button" 
+    data-href="https://tepihservisking.000webhostapp.com/" 
+    data-layout="button_count">
+  </div>
+  <br>
+  Usluga koju zelite:<br>
+  <textarea rows="10" cols="20"></textarea>
+  <br><br>
+  <input type="submit" value="Posalji!" class="animacija">
+</form> 
+    
+</body>
+</html>
